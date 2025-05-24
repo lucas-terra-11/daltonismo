@@ -34,8 +34,9 @@ main {
     margin: 1em;
     text-align: center;
 }
-.image-item:hover{
-    transform: scale(30px);
+
+.image-item:hover {
+    transform: scale(1.02);
 }
 
 .image-item img {
