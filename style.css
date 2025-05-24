@@ -63,9 +63,9 @@ main {
 }
 
 .image-item img {
-    width: 100%; /* ajuste padrão para todas as imagens*/
+    width: 300px; /* ajuste padrão para todas as imagens*/
     max-width: 350px;
-    height: auto; /* ajuste padrão para todas as imagens*/
+    height: 200px; /* ajuste padrão para todas as imagens*/
     object-fit: cover; /* para garantir que a imagem cubra a área definida */
     border: 1px solid #ddd;
     padding: 5px;
