@@ -33,7 +33,9 @@ main {
     flex: 1;
     margin: 1em;
     text-align: center;
-    
+}
+filter-image:hover{
+    transform: scale(30px);
 }
 
 .image-item img {
