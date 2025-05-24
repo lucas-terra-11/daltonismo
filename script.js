@@ -18,3 +18,20 @@ document.getElementById('color-filter').addEventListener('change', function() {
         }
     });
 });
+
+document.getElementById("aumentarFonte").addEventListener("click", function() {
+    changeFontSize(1);
+});
+
+document.getElementById("diminuirFonte").addEventListener("click", function() {
+    changeFontSize(-1);
+});
+
+
+    function changeFontSize(step){
+    var currentFontSize = parseFloat(getComputedStyle(document.body).fontSize);
+    var newFontSize = currentFontSize + step;
+    if (newFontSize>= 10 && newFontSize<= 35){
+    document.body.style.fontSize = newFontSize + "px";
+}
+}
