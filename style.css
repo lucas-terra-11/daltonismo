@@ -14,7 +14,6 @@ header {
     background-color: midnightblue;
     color: white;
     text-align: center;
-    padding: 1em 0; /*1 vez o tamanho da fonte atual. 0 significa que não haverá preenchimento na esquerda e na direita*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,14 +102,21 @@ a:hover {
 .filter-image.tritanomaly {
     filter: sepia(100%) saturate(300%) hue-rotate(-50deg);
 }
+
+.botoes-fonte {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
 button{
-    background-color: darkcyan;
-    color: white;
-    border: none;
-    border-radius: 5px;
     width: 35px;
     height: 35px;
     font-size: 20px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
     cursor: pointer;
     margin: 0 5px;
 }
