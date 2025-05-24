@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #a5a5a5;
+    background-color: midnightblue;
     color: white;
     text-align: center;
     padding: 1em 0; /*1 vez o tamanho da fonte atual. 0 significa que não haverá preenchimento na esquerda e na direita*/
@@ -48,7 +48,7 @@ main {
     }
     
 footer {
-    background-color: #a5a5a5;
+    background-color: midnightblue;
     text-align: center;
     padding: 1em 0;
     margin-top: auto;
@@ -66,6 +66,11 @@ footer {
 .filter-image.tritanomaly {
     filter: sepia(100%) saturate(300%) hue-rotate(-50deg);
 }
-
-
-
+button{
+    background-color: darkcyan;
+    color: white;
+    width: 20px;
+}
+button:hover{
+    background-color: rgb(65, 172, 172);
+}
