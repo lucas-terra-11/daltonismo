@@ -35,7 +35,7 @@ main {
     text-align: center;
 }
 
-.image-item:hover {
+.filter-image:hover {
     transform: scale(1.02);
 }
 
@@ -46,7 +46,7 @@ main {
     border: 1px solid #ddd;
     padding: 5px;
     border-radius: 5px;
-    }
+}
     
 footer {
     background-color: midnightblue;
